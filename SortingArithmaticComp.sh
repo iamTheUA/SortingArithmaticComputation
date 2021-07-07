@@ -41,3 +41,10 @@ do
 		fi
 	done
 done
+
+#Printing Values in Ascending Order
+echo "Numbers in Ascending order: "
+for((i=3;i>-1;i--))
+do
+	echo -ne " "${num_array[$i]}
+done
