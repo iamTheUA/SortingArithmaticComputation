@@ -8,3 +8,5 @@ num1=$((a+(b*c)))
 #Second Arithmathic calculation
 num2=$(((a*b)+c))
 
+#Third Arithmatic calculation
+num3=$((c+(a/b)))
