@@ -21,3 +21,9 @@ for((i=1;i<5;i++))
 do
 	Numbers[$i]=$((num$i))
 done
+
+#read values from Dictionary to Array
+for((i=0;i<4;i++))
+do
+	num_array[$i]=$((Numbers[$((i+1))]))
+done
