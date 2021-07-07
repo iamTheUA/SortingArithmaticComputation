@@ -27,3 +27,17 @@ for((i=0;i<4;i++))
 do
 	num_array[$i]=$((Numbers[$((i+1))]))
 done
+
+#Sorting Array in Descending order
+for ((i=0;i<4;i++))
+do
+	for ((j=i;j<4;j++))
+	do
+		if [ $((num_array[$i])) -lt $((num_array[$j])) ]
+		then
+			temp=$((num_array[$i]))
+			num_array[$i]=$((num_array[$j]))
+			num_array[$j]=$temp
+		fi
+	done
+done
