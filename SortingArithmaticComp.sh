@@ -10,3 +10,6 @@ num2=$(((a*b)+c))
 
 #Third Arithmatic calculation
 num3=$((c+(a/b)))
+
+#Fourth Arithmatic calculation
+num4=$(((a%b)+c))
