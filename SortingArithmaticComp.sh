@@ -13,3 +13,11 @@ num3=$((c+(a/b)))
 
 #Fourth Arithmatic calculation
 num4=$(((a%b)+c))
+
+#storing in dictionary
+declare -A Numbers
+
+for((i=1;i<5;i++))
+do
+	Numbers[$i]=$((num$i))
+done
